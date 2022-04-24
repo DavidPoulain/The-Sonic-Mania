@@ -1,0 +1,307 @@
+html {
+  background-color: rgb(15, 15, 15);
+}
+
+body {
+  background-color: #f9d007;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("../images/Sonic_Artwork2.jpg");
+  height: 1080px;
+  background-size: cover;
+  background-position: center;
+  background-color: #0049a7;
+}
+
+header a {
+  color: rgb(15, 15, 15);
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  transition: 0.2s;
+}
+
+header a:hover {
+  color: #f9d007;
+}
+
+main {
+  margin-top: 7em;
+  background-color: #f9d007;
+}
+
+.title {
+  text-transform: uppercase;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  color: rgb(15, 15, 15);
+}
+
+.title__main {
+  font-size: 15vw;
+  text-align: center;
+  line-height: 0.6em;
+  position: relative;
+  margin: 0;
+  margin-top: 0.4em;
+}
+
+.title__secondary {
+  font-size: 7vw;
+  text-align: right;
+  margin-right: 1.2em;
+  margin-bottom: 1em;
+}
+
+.title__tertiary {
+  font-size: 3em;
+  text-align: center;
+}
+
+.title__footer {
+  font-size: 2em;
+  color: whitesmoke;
+}
+
+/* .title::after {
+  position: absolute;
+}  */
+
+.title__vertical {
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  font-size: 10vw;
+}
+
+.headerNav {
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+}
+
+.headerNav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-left: 0;
+}
+
+.headerNav li {
+  margin: 1em;
+  /* margin-right: 4.5em; */
+  list-style: none;
+  font-size: 1.7vw;
+  text-transform: uppercase;
+}
+
+.mainLogo {
+  margin: 3em auto;
+  display: block;
+  max-width: 600px;
+}
+
+.section__main--characters {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.section__main--characters > * {
+  flex-basis: 100%;
+}
+
+/* .tableau {
+  margin: 0 3em;
+  text-align: center;
+}
+
+.tableau_header {
+  font-size: 3em;
+}
+
+.tableau_row {
+  background-color: #B5D9CF;
+}
+
+.tableau_cell {
+  padding: 3em; 
+  border-radius: 1em;
+}
+
+.tableau_cell--name {
+  background-color: brown;
+  font-size: 1.5em;
+}
+
+.tableau_cell--img img {
+  max-width: 15em;
+} */
+
+.containeur {
+  display: flex;
+  justify-content: center;
+  /* border: solid #F9D007 7px; */
+  background-color: #b5d9cf;
+  margin: 2em;
+  margin-bottom: 4em;
+  border-radius: 1em;
+  max-width: 800px;
+  min-height: 500px;
+}
+
+.articlePerso {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f9d007;
+  /* margin: 1em; */
+  border-radius: 1em;
+  max-width: 800px;
+  transition: 0.5s;
+  position: relative;
+  min-height: 500px;
+}
+
+.articlePerso:hover {
+  transform: translateY(-50px);
+  box-shadow: 0.1em 0.2em 1.5em black;
+}
+
+figure {
+  margin: 2em;
+}
+
+.articlePerso__image {
+  max-width: 15em;
+}
+
+.articlePerso__nom {
+  position: absolute;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 3em;
+  top: 0.3em;
+  left: 9em;
+}
+
+p {
+  font-family: ff-tisa-web-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.3em;
+  text-align: justify;
+}
+
+.articlePerso__desciption {
+  margin: 2em;
+}
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+section > * {
+  flex-basis: 100%;
+}
+
+.section__main--créatif {
+  margin-bottom: 8em;
+}
+
+.articleCréa {
+  display: flex;
+  max-width: 600px;
+  flex-direction: column;
+  text-align: justify;
+  align-items: center;
+  margin-top: 3em;
+  border-right: solid rgb(15, 15, 15) 3px;
+  padding: 0 3em;
+}
+
+.articleCréa > * {
+  margin: 1em;
+}
+
+.articleCréa img {
+  max-height: 400px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: rgb(15, 15, 15);
+  max-height: 1080px;
+}
+
+.section__footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  color: whitesmoke;
+  padding: 5em;
+}
+
+.section__footer article {
+  /* border-top: white solid 3px;
+  border-bottom: white solid 3px; */
+  max-width: 400px;
+  margin: 2em 0;
+  min-height: 220px;
+}
+
+.section__footer > * {
+  flex-basis: 100%;
+}
+
+.section__footer img {
+  max-width: 400px;
+  align-self: center;
+}
+
+.logo {
+  max-height: 10em;
+}
+
+footer a {
+  display: block;
+  font-size: 1.5em;
+  color: whitesmoke;
+  text-decoration: underline;
+  font-family: ff-tisa-web-pro, serif;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: whitesmoke;
+}
+/* Media queries */
+
+@media (max-width: 800px) {
+  .articlePerso {
+    flex-direction: column;
+  }
+
+  header {
+    height: 700px;
+  }
+
+  .articlePerso__nom {
+    left: 1em;
+  }
+
+  .title__secondary {
+    font-size: 9vw;
+  }
+
+  .section__footer {
+    padding: 5em 0;
+  }
+}
