@@ -21,7 +21,7 @@
 
 <header>
     <section class="header_container">
-        <h1 class="title title__main"><span class="title title__vertical">The</span> Sonic Mania</h1>
+        
         <nav class="headerNav">
             <ul>
                 <li>
@@ -32,5 +32,6 @@
                 </li>
             </ul>
         </nav>
+        <h1 class="title title__main"><span class="title title__vertical">The</span> Sonic Mania</h1>
     </section>
 </header>
